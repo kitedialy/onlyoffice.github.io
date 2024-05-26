@@ -1,5 +1,5 @@
 (function(window, undefined) {
-	var URL_TO_PLUGIN = "https://github.com/kitedialy/onlyoffice.github.io/tree/master/sdkjs-plugins/content/languagetool";
+	var URL_TO_PLUGIN = "https://github.com/kitedialy/onlyoffice.github.io/tree/master/sdkjs-plugins/content/Polishing";
 	
 	var xhrObj = new XMLHttpRequest();
 	xhrObj.open('GET', URL_TO_PLUGIN + "config.json", false);
