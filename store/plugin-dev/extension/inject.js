@@ -1,5 +1,5 @@
 (function(window, undefined) {
-	var URL_TO_PLUGIN = "";
+	var URL_TO_PLUGIN = "https://github.com/kitedialy/onlyoffice.github.io/tree/master/sdkjs-plugins/content/languagetool";
 	
 	var xhrObj = new XMLHttpRequest();
 	xhrObj.open('GET', URL_TO_PLUGIN + "config.json", false);
@@ -15,5 +15,5 @@
 	{
 		window.Asc.g_asc_plugins.loadExtensionPlugins(window.Asc.extensionPlugins);
 		window.Asc.extensionPlugins = [];
-	}	
+	}
 })(window, undefined);
